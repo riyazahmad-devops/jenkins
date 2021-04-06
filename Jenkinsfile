@@ -1,6 +1,6 @@
 node{
 	stage('SCM Checkout'){
-	git credentialsId: '56ccb180-a431-42df-a84a-d9fe9ebee608', url: 'https://github.com/riyazahmad-devops/jenkins.git'
+	git 'https://github.com/riyazahmad-devops/jenkins.git'
 	
 	}
     stage('Compile-Package'){
